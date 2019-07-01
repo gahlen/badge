@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: Questrial, sans-serif;
+  background-color: rgb(67, 62, 62);
+}
+
+ul {
+  margin: 3em auto;
+  margin-top: 10%;
+  width: 345px;
+  height: 200px;
+  border-radius: 1.2em;
+  padding: 0;
+  background-color: white;
+}
+
+ul li span {
+  font-size: 3.5em;
+  display: block;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.ident{
+  font-size: 1.7em;
+  line-height: 5pt;
+}
+
+ul li {
+  list-style: none;
+  list-style-position: inside;
+  text-align: center;
+}
+
+ul li:first-child {
+  background-color: #F23B2B;
+  color: white;
+  border-radius: 1.2em 1.2em 0 0;
+  padding: .2em .4em 1.2em .4em;
+  
+}
+ul li:last-child {
+  background-color: #F23B2B;
+  height: 1em;
+  border-radius: 0 0 2em 2em;
+  padding: .1em 0;
+}
+
+ul li.name {
+  color: black;
+  background-color: white;
+  font-size: 4.8em;
+  padding: .53em 0.4em .2em .4em;
+}
